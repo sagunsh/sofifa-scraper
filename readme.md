@@ -2,7 +2,7 @@
 
 Scrapes FIFA Player Ratings from sofifa.com
 
-> Note: Please do not use this script to overload sofifa.com server
+> Note: Use responsibly. Do not use this script to overload sofifa.com server.
 
 ## Installing Requirements
 
