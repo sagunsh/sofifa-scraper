@@ -1,26 +1,24 @@
 # Sofifa Scraper
 
-Scrapes FIFA20 Player Ratings from sofifa.com
+Scrapes FIFA Player Ratings from sofifa.com
 
-## Installing Scrapy
+## Installing Requirements
 
-Requires Python 3 and Scrapy 1.7
+    $ pip3 install -r requirements.txt
+ 
+## Execution
 
-For Mac and Linux
+* Supports csv and json output.
 
-    $ pip install Scrapy
-    
-For Windows user, in anaconda prompt
+* Use -f or --filename to pass output file name argument. Default is output.csv.
 
-    $ conda install -c conda-forge scrapy
 
-## Project and Spider
+    $ python scrape_sofifa.py --filename data.csv
 
-    $ scrapy startproject fifa20    # creates project
-    $ cd fifa20
-    $ scrapy genspider sofifa sofifa.com    # creates spider
-    
-## Executing
+    $ python scrape_sofifa.py -f data.json
 
-    $ scrapy crawl sofifa - fifa20_data.csv
-    $ scrapy crawl sofifa - fifa20_data.json
+## Help
+
+    $ python scrape_sofifa.py --help
+
+    $ python scrape_sofifa.py -h
