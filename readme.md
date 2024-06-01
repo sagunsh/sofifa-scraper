@@ -6,7 +6,15 @@ Scrapes FIFA Player Ratings from https://sofifa.com/
 
 ## Installing Requirements
 
+Requires Python 3.6 or above.
+
+Mac and Linux
+
     $ pip3 install -r requirements.txt
+
+Windows
+
+    $ pip install -r requirements.txt
 
 ## Execution
 
